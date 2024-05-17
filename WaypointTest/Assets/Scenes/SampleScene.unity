@@ -314,13 +314,13 @@ MonoBehaviour:
   wayPoints_Straight:
   - {fileID: 630604435}
   - {fileID: 1136940721}
-  wayPoints_StepIn_Correct:
+  wayPoints_StepIn_Accident:
   - {fileID: 802682655}
   - {fileID: 1032165212}
   - {fileID: 72836678}
   - {fileID: 1475745181}
   - {fileID: 1660819396}
-  wayPoints_StepIn_Fake:
+  wayPoints_StepIn_Safe:
   - {fileID: 741342126}
   - {fileID: 836799397}
   - {fileID: 1875726776}
@@ -328,7 +328,7 @@ MonoBehaviour:
   - {fileID: 204614659}
   speed: 22
   index: 0
-  accidentScenario: 3
+  accidentScenario: 1
   stepInRandomize: 0
 --- !u!1 &204614659
 GameObject:
@@ -931,7 +931,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1473328209}
   m_Layer: 0
-  m_Name: SideCarL_Route_StepIn_Fake
+  m_Name: SideCarL_Route_StepIn_Safe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1146,7 +1146,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1731971595}
   m_Layer: 0
-  m_Name: SideCarL_Route_StepIn_Correct
+  m_Name: SideCarL_Route_StepIn_Accident
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -11,6 +11,9 @@ public class WayPointGizmos : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawCube(transform.position, new Vector3(1, 1, 1));
 
-        Gizmos.DrawLine(transform.position, target.position);
+        if (target != null)
+        {
+            Gizmos.DrawLine(transform.position, target.position);
+        }
     }
 }
